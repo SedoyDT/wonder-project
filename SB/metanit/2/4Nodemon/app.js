@@ -2,7 +2,7 @@ const http = require("http");
  
 let message = "Hello World!";
 http.createServer(function(request,response){
-     
+    console.log(message)
     console.log(message);
     response.end(message);
      
