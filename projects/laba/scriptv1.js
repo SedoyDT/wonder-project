@@ -10,10 +10,7 @@ const ask = function () {
         case "3":
             WHICH_TYPE_FOR_STEP();
             break;
-            /**
-                TODO:
-                - Загуглить почему "2" работает, а 2 нет
-            */
+            
     }
 
 }
